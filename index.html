@@ -281,7 +281,13 @@
                   <input type="email" name="email" class="form-control" id="mail" placeholder="Ваш e-mail">
                   <input name="tel" type="tel" class="form-control" id="subject" placeholder="Ваш номер телефона">
                   <textarea name="message" rows="6" class="form-control" id="comment" placeholder="Что Вам нужно и в какие сроки"></textarea>
-                  <input type="file" name="fileFF[]" multiple id="fileFF" class="btn bnt-general">
+                  <div class="input__wrapper">
+                    <input name="file" type="file" name="file" id="input__file" class="input input__file" multiple>
+                    <label for="input__file" class="input__file-button">
+                       <span class="input__file-icon-wrapper"><img class="input__file-icon" src="./img/add.svg" alt="Выбрать файл" width="25"></span>
+                       <span class="input__file-button-text">Выберите файл</span>
+                    </label>
+                  </div>
                   <button type="submit" class="btn btn-general">Узнать стоимость работы</button>
                 </div>                       
             </form>
