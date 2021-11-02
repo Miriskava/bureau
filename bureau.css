@@ -126,6 +126,7 @@ h3{
   border-radius: 10px;
   position:relative;
   border: #365f91 2px solid;
+  margin-bottom: 30px;
 }
 
 .wrapper{
@@ -178,7 +179,9 @@ h3{
   background-color: whitesmoke;
   padding-left: 0;
   padding-right: 0;
+  padding-bottom: 30px;
 }
+
 
 #contact{
   background-color: whitesmoke;
@@ -356,15 +359,18 @@ h3{
   }
   #baner_text{
     font-size: 26px;
-    line-height: 65px;
+    line-height: 45px;
   }
   #btn-contact {
     margin-top: 1em;
     padding: 1em 2em;
-    font-weight: 500;
+    font-weight: 400;
   }
   #big-numb{
     display: none;
+  }
+  #disp-none-1{
+    display: block;
   }
   #disp-none-2{
     display: block;
