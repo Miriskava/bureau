@@ -66,6 +66,7 @@ html, body{width:100%; height:100%; overflow-x:hidden}
   margin-top: 45px;
   padding: 20px 50px;
   font-weight: 500;
+  
 }
 
 a{
@@ -300,6 +301,10 @@ h3{
   background-color: #365f91;
   box-shadow: 0 1px #203957;
   transform: translateY(3px);
+}
+
+button.btn-general{
+  width: 250px;
 }
 
 #foot{
