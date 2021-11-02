@@ -405,3 +405,9 @@ h3{
     display: block;
   }
 }
+
+@media screen and (max-width:430px) {
+  .carousel-indicators{
+    display: none;
+  }
+}
