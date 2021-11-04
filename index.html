@@ -251,21 +251,21 @@
                 <strong>E-mail: </strong>
               </div>
               <div class="col-md-6">
-                <a href="mail:kb.proekt-kd@yandex.ru ">kb.proekt-kd@yandex.ru</a>
+                <a href="mailto:kb.proekt-kd@yandex.ru ">kb.proekt-kd@yandex.ru</a>
               </div>
             </div>
            
             </div>
           <div class="col-md-5" id="order-form">
-            <form action="#" method="post" class="contact-form" id="contact-form">
+            <form enctype="multipart/form-data" method="post" class="contact-form" id="contact-form">
                 <div class="form-group">
                   <h5>Сделать заказ прямо сейчас</h5>
-                  <input name="name" type="text" class="form-control" id="name" placeholder="Ваше имя">
-                  <input type="email" name="email" class="form-control" id="mail" placeholder="Ваш e-mail">
-                  <input name="tel" type="tel" class="form-control" id="subject" placeholder="Ваш номер телефона">
-                  <textarea name="message" rows="6" class="form-control" id="comment" placeholder="Что Вам нужно и в какие сроки"></textarea>
+                  <input name="nameN" type="text" class="form-control" id="nameN" placeholder="Ваше имя">
+                  <input type="email" name="mail" class="form-control" id="mail" placeholder="Ваш e-mail">
+                  <input name="phone" type="tel" class="form-control" id="phone" placeholder="Ваш номер телефона">
+                  <textarea name="text_message" rows="6" class="form-control" id="text_message" placeholder="Что Вам нужно и в какие сроки"></textarea>
                   <div class="input__wrapper">
-                    <input name="file" type="file" name="file" id="input__file" class="input input__file" multiple>
+                    <input name="input__file[]" type="file" name="file" id="input__file" class="input input__file" multiple>
                     <label for="input__file" class="input__file-button">
                        <span class="input__file-icon-wrapper"><img class="input__file-icon" src="./img/download-arrow.png" alt="Выбрать файл" width="20"></span>
                        <span class="input__file-button-text">Выберите файл</span>
@@ -284,8 +284,12 @@
       Конструкторское бюро "Проект" &copy; 2021<script>new Date().getFullYear()>2021&&document.write("-"+new Date().getFullYear());</script> | Все права защищены
     </div>
   </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
   <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-
+  <script src="script.js"></script>
   <script>
     let inputs = document.querySelectorAll('.input__file');
     Array.prototype.forEach.call(inputs, function (input) {
