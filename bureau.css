@@ -404,6 +404,9 @@ button.btn-general{
   #logo-img {
     margin-top: -25px;
   }
+  .navbar-brand {
+    margin-right: 0.15rem;
+  }
   #logo {
     margin-left: 0px;
   }
