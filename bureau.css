@@ -241,6 +241,9 @@ h3{
   display: none;
 }
 
+#small-numb{
+  display: none;
+}
 .input__wrapper {
   width: 100%;
   position: relative;
@@ -384,9 +387,7 @@ button.btn-general{
 
 @media screen and (max-width:576px) {
   .header_main{
-    margin-left: auto;
-    margin-right: auto;
-    width: 270px;
+    width: 100%;
     border-bottom: 4px solid #365f91;
     background-color: white;
     border-radius: 10px;
@@ -400,8 +401,17 @@ button.btn-general{
     padding: 1em 2em;
     font-weight: 500;
   }
+  #logo-img {
+    margin-top: -25px;
+  }
+  #logo {
+    margin-left: 0px;
+  }
   #big-numb{
     display: none;
+  }
+  #small-numb{
+    display: block;
   }
   #disp-none-1{
     display: block;
