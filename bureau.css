@@ -415,12 +415,19 @@ button.btn-general{
   }
   #small-numb{
     display: block;
+    font-weight: 500;
   }
   #disp-none-1{
     display: block;
   }
   #disp-none-2{
     display: block;
+  }
+  #logo-name{
+    font-size: 20px;
+  }
+  #logo-label{
+    font-size: 10px;
   }
 }
 
