@@ -103,6 +103,31 @@ a:hover{
   background-color: #365f91;
   border-color: #365f91;
   border-radius: 10px ;
+  
+  overflow-x: hidden; 
+  position: relative; 
+}
+
+.btn-general .flare {
+  position: absolute;
+  animation: flareAnimation;
+  top: 0;
+  height: 100%;
+  width: 55px;
+  transform: skewX(-45deg); 
+  animation: flareAnimation;
+  left: -150%;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.4));
+  animation: flareAnimation 5s infinite linear;
+}
+
+@keyframes flareAnimation {
+  0% {
+      left: -150%;
+  }
+  100% {
+      left: 150%;
+  }
 }
 
 .btn-general:hover{
