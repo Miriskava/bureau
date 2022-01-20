@@ -116,6 +116,11 @@ a:hover{
   margin-bottom: 30px
 }
 
+#list{
+  margin-right: auto;
+  margin-left: auto;
+}
+
 h3{
   padding-top: 30px;
   text-align: center;
@@ -320,14 +325,7 @@ button.btn-general{
 }
 
 @media screen and (max-width:992px) {
-  .header_main{
-    margin-left: auto;
-    margin-right: auto;
-    width: 720px;
-    border-bottom: 4px solid #365f91;
-    background-color: white;
-    border-radius: 10px;
-  }
+  
 
   #baner_text{
     font-size: 18px;
@@ -361,14 +359,7 @@ button.btn-general{
 }
 
 @media screen and (max-width:768px) {
-  .header_main{
-    margin-left: auto;
-    margin-right: auto;
-    width: 540px;
-    border-bottom: 4px solid #365f91;
-    background-color: white;
-    border-radius: 10px;
-  }
+  
   #baner_text{
     font-size: 26px;
     line-height: 45px;
@@ -377,6 +368,12 @@ button.btn-general{
     margin-top: 1em;
     padding: 1em 2em;
     font-weight: 400;
+  }
+  .navbar-expand-md .navbar-toggler {
+    display: block;
+  }
+  #navbarCollapse{
+    display: none !important;
   }
   #big-numb{
     display: none;
@@ -387,14 +384,24 @@ button.btn-general{
   #disp-none-2{
     display: block;
   }
+  #small-numb{
+    display: block;
+    font-weight: 500;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #list {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width:576px) {
-  .header_main{
-    width: 100%;
-    border-bottom: 4px solid #365f91;
-    background-color: white;
-    border-radius: 10px;
+  body{
+    font-size: 16px;
+  }
+  .navbar-toggler {
+    display: none;
   }
   #baner_text {
     font-size: 20px;
@@ -420,6 +427,8 @@ button.btn-general{
   #small-numb{
     display: block;
     font-weight: 500;
+    margin-right: auto;
+    margin-left: auto;
   }
   #disp-none-1{
     display: block;
