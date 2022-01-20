@@ -394,13 +394,15 @@ button.btn-general{
     padding: 1em 2em;
     font-weight: 400;
   }
-  .navbar-expand-md .navbar-toggler {
-    display: block;
-  }
-  #navbarCollapse{
-    display: none !important;
-  }
+ 
   #big-numb{
+    display: block;
+    
+    font-weight: 500;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #num{
     display: none;
   }
   #disp-none-1{
@@ -410,23 +412,14 @@ button.btn-general{
     display: block;
   }
   #small-numb{
-    display: block;
-    font-weight: 500;
-    margin-right: auto;
-    margin-left: auto;
+    display: none;
   }
-  #list {
-    margin-right: 0;
-    margin-left: 0;
-  }
+  
 }
 
 @media screen and (max-width:576px) {
   body{
     font-size: 16px;
-  }
-  .navbar-toggler {
-    display: none;
   }
   #baner_text {
     font-size: 20px;
