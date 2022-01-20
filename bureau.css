@@ -1,4 +1,9 @@
-html, body{width:100%; height:100%; overflow-x:hidden}
+html, body{
+  width:100%; 
+  height:100%; 
+  overflow-x:hidden;
+  font-size: 18px;
+}
 
 #home{
   background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/head_main.png);
@@ -17,6 +22,10 @@ html, body{width:100%; height:100%; overflow-x:hidden}
 
 #logo-fullname{
   display: inline-block;
+}
+
+#num{
+  margin-left: 20px;
 }
 
 .header_main{
