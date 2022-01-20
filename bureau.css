@@ -206,7 +206,6 @@ h3{
   padding: 20px;
   background-color: white;
   margin-bottom: 50px;
-  margin-top: 20px;
 }
 
 .form-control{
@@ -433,6 +432,9 @@ button.btn-general{
   }
   #logo-label{
     font-size: 10px;
+  }
+  #order-form {
+    margin-top: 20px;
   }
 }
 
