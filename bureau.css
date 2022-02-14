@@ -245,6 +245,16 @@ h3{
   font-size: 22px;
 }
 
+#contact-line{
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+.text-contact-line{
+  text-decoration: none;
+}
+
 .navbar-expand-md .navbar-nav {
   flex-direction: row;
 }
@@ -340,6 +350,8 @@ button.btn-general{
 #foot{
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 10px;
 }
 
 @media screen and (max-width:992px) {
