@@ -18,8 +18,7 @@
     <link href="bureau.css" rel="stylesheet">
   </head>
 <body>
-  <div id="home">
-    <nav class="navbar navbar-expand-md navbar navbar-light bg header_main">
+    <nav role="navigation" class=" navbar navbar-light bg header_main">
       <div class="container">
         <a class="navbar-brand " href="#home">
           <div id="logo">
@@ -36,7 +35,6 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div id="list">
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <div >
               <ul class="navbar-nav me-auto mb-2 mb-md-0">
@@ -47,20 +45,31 @@
                   <a class="nav-link" href="#services">Услуги</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Портфолио</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#consult" >Консультация</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link " href="#contact" >Контакты</a>
                 </li>
               </ul>
-            </div>
           </div>
         </div> 
-        <div id="big-numb">
-          +7(988)987-38-78
-          <a id="num" class="btn-general" href="tel:+79889873878">Позвонить<span class="flare"></span></a>
+        <div class="row" id="big-numb">
+          <div class="col-md-6" id="numb-big">
+            +7(988)987-38-78
+          </div>
+          <div class="col-md-6">
+            <a id="num" class="btn-general" href="tel:+79889873878">Позвонить<span class="flare"></span></a>
+          </div>
         </div>
       </div>
     </nav>
-    <div class="container" id="text_header">
-      <div >
+
+  <main>
+    <div  id="text_header">
+      <div class="container">
         <div id="baner_text">
           3D печать, разработка чертежей,<br id="disp-none-1"> 3D-моделирование, 
           <br>
@@ -73,13 +82,10 @@
               прямо сейчас
               <span class="flare"></span>
             </a>
-          </div>
         </div>
+    </div>
       </div>
     </div>
-  </div>
-
-  <main>
     <div id="services">
       <h3>Услуги</h3>
       <div class="container">
