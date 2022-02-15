@@ -356,6 +356,10 @@ button.btn-general{
     padding-left: 25px;
   }
 
+  
+}
+
+@media screen and (max-width:1200px){
   #big-numb{
     display: none;
   }
@@ -365,10 +369,6 @@ button.btn-general{
     margin-right: auto;
     margin-left: auto;
   }
-}
-
-@media screen and (max-width:1200px){
-
 }
 
 @media screen and (max-width:992px) {
